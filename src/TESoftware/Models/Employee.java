@@ -1,4 +1,4 @@
-package Models;
+package TESoftware.Models;
 
 public interface Employee {
     //All 4 MUST be replaced, even in ones that dont happen

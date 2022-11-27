@@ -1,6 +1,4 @@
-package Models;
-
-import Models.*;
+package TESoftware.Models;
 
 public class Main {
     public static void main(String[] args) {

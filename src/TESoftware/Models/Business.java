@@ -1,4 +1,4 @@
-package Models;
+package TESoftware.Models;
 
 public class Business extends Client {
     private int peopleamount;
@@ -36,7 +36,7 @@ public class Business extends Client {
     //toString method
     @Override
     public String toString() {
-        return "Models.Business " +
+        return "TESoftware.Models.Business " +
                 "name is " + getName() +
                 ", location is " + getLocation() +
                 ", order number is " + getOrdernum() +

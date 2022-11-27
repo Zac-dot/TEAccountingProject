@@ -1,6 +1,6 @@
-package Models;
+package TESoftware.Models;
 
-//Models.Client - Houses parent of Models.Business and Individuals
+//TESoftware.Models.Client - Houses parent of TESoftware.Models.Business and Individuals
 //Holds name, locations or address, ordernum, and budget
 public class Client {
     private String name;
@@ -41,7 +41,7 @@ public class Client {
         this.budget = budget;
     }
 
-    //Constructor just to quickly make the Models.Client
+    //Constructor just to quickly make the TESoftware.Models.Client
     public Client(String name, String location, int ordernum, double budget) {
         this.name = name;
         this.location = location;
@@ -56,7 +56,7 @@ public class Client {
     //toString method (or printInfo)
     @Override
     public String toString() {
-        return "Models.Client " +
+        return "TESoftware.Models.Client " +
                 "name is " + name +
                 ", location is " + location +
                 ", order number is " + ordernum +

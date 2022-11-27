@@ -1,4 +1,4 @@
-package Models;
+package TESoftware.Models;
 
 import java.util.ArrayList;
 
@@ -31,10 +31,10 @@ public class CEO implements Employee {
         this.ID = ID;
     }
 
-    //Works Under does not do anything for Models.CEO, but must be overwritten
+    //Works Under does not do anything for TESoftware.Models.CEO, but must be overwritten
     @Override
     public void addsWorksUnder(String employee) {
-        System.out.println("Cannot add " + employee + " as Models.CEO will not work under anyone");
+        System.out.println("Cannot add " + employee + " as TESoftware.Models.CEO will not work under anyone");
     }
 
     @Override
@@ -42,7 +42,7 @@ public class CEO implements Employee {
 
     }
 
-    //Works Over does things for Models.CEO, must be overwritten
+    //Works Over does things for TESoftware.Models.CEO, must be overwritten
     @Override
     public void addsWorksOver(String employee) {
         WorksOver.add(employee);
@@ -50,7 +50,7 @@ public class CEO implements Employee {
 
     @Override
     public void getsWorksOver() {
-        System.out.println("Employees that work under Models.CEO are ");
+        System.out.println("Employees that work under TESoftware.Models.CEO are ");
         WorksOver.forEach(System.out::println);
     }
 

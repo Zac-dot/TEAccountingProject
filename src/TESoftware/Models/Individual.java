@@ -1,6 +1,4 @@
-package Models;
-
-import Models.Client;
+package TESoftware.Models;
 
 public class Individual extends Client {
     private String workfield;
@@ -40,7 +38,7 @@ public class Individual extends Client {
     //toString method
     @Override
     public String toString() {
-        return "Models.Individual " +
+        return "TESoftware.Models.Individual " +
                 "name is " + getName() +
                 ", location is " + getLocation() +
                 ", order number is " + getOrdernum() +
