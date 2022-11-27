@@ -1,6 +1,8 @@
+package Models;
+
 import java.util.ArrayList;
 
-public class CEO implements Employee{
+public class CEO implements Employee {
     private String name = "Null Name";
     private int ID = 1234567890;
     ArrayList<String> WorksOver = new ArrayList<String>();
@@ -29,10 +31,10 @@ public class CEO implements Employee{
         this.ID = ID;
     }
 
-    //Works Under does not do anything for CEO, but must be overwritten
+    //Works Under does not do anything for Models.CEO, but must be overwritten
     @Override
     public void addsWorksUnder(String employee) {
-        System.out.println("Cannot add " + employee + " as CEO will not work under anyone");
+        System.out.println("Cannot add " + employee + " as Models.CEO will not work under anyone");
     }
 
     @Override
@@ -40,7 +42,7 @@ public class CEO implements Employee{
 
     }
 
-    //Works Over does things for CEO, must be overwritten
+    //Works Over does things for Models.CEO, must be overwritten
     @Override
     public void addsWorksOver(String employee) {
         WorksOver.add(employee);
@@ -48,7 +50,7 @@ public class CEO implements Employee{
 
     @Override
     public void getsWorksOver() {
-        System.out.println("Employees that work under CEO are ");
+        System.out.println("Employees that work under Models.CEO are ");
         WorksOver.forEach(System.out::println);
     }
 

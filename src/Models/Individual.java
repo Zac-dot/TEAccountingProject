@@ -1,3 +1,7 @@
+package Models;
+
+import Models.Client;
+
 public class Individual extends Client {
     private String workfield;
     private int age;
@@ -36,7 +40,7 @@ public class Individual extends Client {
     //toString method
     @Override
     public String toString() {
-        return "Individual " +
+        return "Models.Individual " +
                 "name is " + getName() +
                 ", location is " + getLocation() +
                 ", order number is " + getOrdernum() +

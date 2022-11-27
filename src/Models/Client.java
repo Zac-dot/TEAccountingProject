@@ -1,4 +1,6 @@
-//Client - Houses parent of Business and Individuals
+package Models;
+
+//Models.Client - Houses parent of Models.Business and Individuals
 //Holds name, locations or address, ordernum, and budget
 public class Client {
     private String name;
@@ -39,7 +41,7 @@ public class Client {
         this.budget = budget;
     }
 
-    //Constructor just to quickly make the Client
+    //Constructor just to quickly make the Models.Client
     public Client(String name, String location, int ordernum, double budget) {
         this.name = name;
         this.location = location;
@@ -54,7 +56,7 @@ public class Client {
     //toString method (or printInfo)
     @Override
     public String toString() {
-        return "Client " +
+        return "Models.Client " +
                 "name is " + name +
                 ", location is " + location +
                 ", order number is " + ordernum +

@@ -1,4 +1,6 @@
-public class Business extends Client{
+package Models;
+
+public class Business extends Client {
     private int peopleamount;
     //Type meaning business type
     private String type;
@@ -34,7 +36,7 @@ public class Business extends Client{
     //toString method
     @Override
     public String toString() {
-        return "Business " +
+        return "Models.Business " +
                 "name is " + getName() +
                 ", location is " + getLocation() +
                 ", order number is " + getOrdernum() +

@@ -1,6 +1,8 @@
+package Models;
+
 import java.util.ArrayList;
 
-public class Manager implements Employee{
+public class Manager implements Employee {
     private String name = "Null Name";
     private String WorksUnder = "Null";
     private int ID = 1234567890;
@@ -38,7 +40,7 @@ public class Manager implements Employee{
         this.ID = ID;
     }
 
-    //Works Under does things for Manager, must be overwritten
+    //Works Under does things for Models.Manager, must be overwritten
     @Override
     public void addsWorksUnder(String employee) {
         setWorksUnder(employee);
@@ -49,7 +51,7 @@ public class Manager implements Employee{
         System.out.println("This manager works under " + getWorksUnder());
     }
 
-    //Works Over does things for Manager, must be overwritten
+    //Works Over does things for Models.Manager, must be overwritten
     @Override
     public void addsWorksOver(String employee) {
         WorksOver.add(employee);
@@ -57,7 +59,7 @@ public class Manager implements Employee{
 
     @Override
     public void getsWorksOver() {
-        System.out.println("Employees that work under Manager are ");
+        System.out.println("Employees that work under Models.Manager are ");
         WorksOver.forEach(System.out::println);
     }
 
