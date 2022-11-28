@@ -11,7 +11,6 @@ import java.io.IOException;
 
 //Db Imports
 import java.sql.*;
-import java.util.Objects;
 
 public class Main extends Application {
     public static void main(String[] args) {
@@ -35,6 +34,9 @@ public class Main extends Application {
             smt.executeUpdate("create table if not exists employees(managedby varchar(50), name varchar(70), ID Integer);");
             smt.executeUpdate("create table if not exists manager(managedby varchar(200), managerof varchar(200), name varchar(70), ID Integer);");
             smt.executeUpdate("create table if not exists CEO(manages varchar(200), name varchar(70), ID Integer);");
+            System.out.println("Tables have been checked and made");
+
+            //Goes straight into scenes
             launch(args);
         } catch (SQLException e) {
             e.printStackTrace();
@@ -47,7 +49,8 @@ public class Main extends Application {
         Client Anthony = new Client("Anthony", "Palo Alta, CA", 18, 50.00);
         System.out.println(Anthony.toString());
 
-        Business LarryHart = new Business("LarryHart Furniture","San Francisco, CA", 19, 26000.00, 12, "Retail");        System.out.println(LarryHart.toString());
+        Business LarryHart = new Business("LarryHart Furniture","San Francisco, CA", 19, 26000.00, 12, "Retail");
+        System.out.println(LarryHart.toString());
         Individual Magenta = new Individual("Magenta Rose", "Seattle, WA", 20, 700.00, "Freelancer", 29);
         System.out.println(Magenta.toString());
 

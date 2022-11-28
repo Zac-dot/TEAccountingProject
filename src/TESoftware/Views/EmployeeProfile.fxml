@@ -7,7 +7,7 @@
 
 <AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TESoftware.Controllers.EmployeeProfile">
    <children>
-      <Label fx:id="nameLabel" alignment="TOP_CENTER" layoutX="45.0" layoutY="36.0" prefHeight="27.0" prefWidth="210.0" text="Welcome, (Name)" textAlignment="CENTER">
+      <Label fx:id="nameLabel" alignment="TOP_CENTER" layoutX="45.0" layoutY="36.0" prefHeight="27.0" prefWidth="210.0" text="Welcome, Hubert" textAlignment="CENTER">
          <font>
             <Font size="18.0" />
          </font>
