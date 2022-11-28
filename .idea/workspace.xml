@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83aae247-23ee-470d-8051-f59653230a8c" name="Changes" comment="Updated and made sure FXML files would work, UI is mostly complete">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TESoftware/Controllers/ClientProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/ClientProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TESoftware/Controllers/ClientToEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/ClientToEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TESoftware/Controllers/OrderHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/OrderHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TESoftware/Views/ClientProfile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Views/ClientProfile.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TESoftware/Views/ClientToEmployee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Views/ClientToEmployee.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="83aae247-23ee-470d-8051-f59653230a8c" name="Changes" comment="All but one FXML file is made, SQL is slowly being placed in model files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,7 +136,7 @@
       <updated>1669589346880</updated>
       <workItem from="1669589347638" duration="10972000" />
       <workItem from="1669603071531" duration="5545000" />
-      <workItem from="1669672675749" duration="2420000" />
+      <workItem from="1669672675749" duration="2769000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1669590417303</created>
@@ -201,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669608647336</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="All but one FXML file is made, SQL is slowly being placed in model files">
+      <created>1669675413626</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669675413626</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +225,7 @@
     <MESSAGE value="Additional content added to some fxml and controller files" />
     <MESSAGE value="Added in MySQL connectors, FXML for EmployeeProfile.fxml and ClientHistory.fxml" />
     <MESSAGE value="Updated and made sure FXML files would work, UI is mostly complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated and made sure FXML files would work, UI is mostly complete" />
+    <MESSAGE value="All but one FXML file is made, SQL is slowly being placed in model files" />
+    <option name="LAST_COMMIT_MESSAGE" value="All but one FXML file is made, SQL is slowly being placed in model files" />
   </component>
 </project>
