@@ -1,4 +1,4 @@
 package TESoftware.Controllers;
 
-public class History {
+public class OrderHistory {
 }

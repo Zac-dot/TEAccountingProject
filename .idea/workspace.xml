@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83aae247-23ee-470d-8051-f59653230a8c" name="Changes" comment="Various additional files added">
-      <change afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/ClientProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TESoftware/Views/EmployeeProfile.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TESoftware/Controllers/EmployeeProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/EmployeeProfile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TESoftware/Controllers/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TESoftware/Models/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TESoftware/Views/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Views/Login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TESoftware/Views/Profile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Views/ClientProfile.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TESoftware/Controllers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TESoftware/Views/EmployeeProfile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Views/EmployeeProfile.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +54,11 @@
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pathVariables",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -89,6 +92,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TESoftware.Controllers.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TESoftware.Controllers.Main" />
+      <module name="Phase3TEAccounting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TESoftware.Controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Java Scratch">
       <option name="MAIN_CLASS_NAME" value="TESoftware.Controllers.Main" />
       <module name="Phase3TEAccounting" />
@@ -100,12 +116,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TESoftware.Controllers.Main" />
       <item itemvalue="Application.Login" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Java Scratch.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TESoftware.Controllers.Main" />
         <item itemvalue="Application.Login" />
         <item itemvalue="Application.Main" />
       </list>
@@ -119,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669589346880</updated>
-      <workItem from="1669589347638" duration="6397000" />
+      <workItem from="1669589347638" duration="8480000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1669590417303</created>
@@ -149,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669592556418</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Various additional files added">
+      <created>1669595925444</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669595925444</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

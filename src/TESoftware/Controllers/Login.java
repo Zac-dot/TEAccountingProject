@@ -17,16 +17,26 @@ public class Login {
     private TextField passID;
 
     public void Login(ActionEvent event) throws Exception{
-        if(usernameID.getText().equals("test") && passID.getText().equals("test")){
+        //Client / User profile
+        if(usernameID.getText().equals("PhilipFry") && passID.getText().equals("pass")){
             sID.setText("Successfully got in!");
             Stage primaryStage = new Stage();
             Parent root = FXMLLoader.load(getClass().getResource("/TESoftware/Views/ClientProfile.fxml"));
             Scene scene = new Scene(root, 300, 300);
-            primaryStage.setTitle("Welcome, " + usernameID.getText());
+            primaryStage.setTitle("Welcome, Philip J Fry");
             primaryStage.setScene(scene);
             primaryStage.show();
-        }else{
-          sID.setText("Couldn't login");
+        //Admin Profile essentially
+        }else if(usernameID.getText().equals("HubertFry") && passID.getText().equals("admin")){
+            sID.setText("Successfully got in!");
+            Stage primaryStage = new Stage();
+            Parent root = FXMLLoader.load(getClass().getResource("/TESoftware/Views/EmployeeProfile.fxml"));
+            Scene scene = new Scene(root, 300, 300);
+            primaryStage.setTitle("Welcome, Hubert Fry");
+            primaryStage.setScene(scene);
+            primaryStage.show();
+        } else{
+            sID.setText("Couldn't login");
         }
     }
 
