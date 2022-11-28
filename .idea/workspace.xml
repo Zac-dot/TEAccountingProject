@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83aae247-23ee-470d-8051-f59653230a8c" name="Changes" comment="Second commit">
-      <change afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/Login.java" afterDir="false" />
+    <list default="true" id="83aae247-23ee-470d-8051-f59653230a8c" name="Changes" comment="Various additional files added">
+      <change afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/ClientProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TESoftware/Views/EmployeeProfile.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Business.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Models/Business.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/CEO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Models/CEO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Models/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Models/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Individual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Models/Individual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Models/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Models/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/ClientToEmployee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Views/ClientToEmployee.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/EmployeeToClient.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Views/EmployeeToClient.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/History.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Views/History.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Views/Login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Profile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Views/Profile.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TESoftware/Controllers/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TESoftware/Models/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TESoftware/Views/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Views/Login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TESoftware/Views/Profile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Views/ClientProfile.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +23,7 @@
       <list>
         <option value="JavaFXApplication" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,7 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/XLee2/OneDrive/Documents/School Files/Fall Quarter 2022/CS 380/Phase3TEAccounting",
+    "last_opened_file_path": "C:/Users/XLee2/OneDrive/Documents/School Files/Fall Quarter 2022/CS 380/Phase3TEAccounting/src/TESoftware/Controllers/Main.java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,7 +66,7 @@
       <recent name="C:\Users\XLee2\OneDrive\Documents\School Files\Fall Quarter 2022\CS 380\Phase3TEAccounting\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Login">
+  <component name="RunManager" selected="Java Scratch.Main">
     <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TESoftware.Controllers.Login" />
       <module name="Phase3TEAccounting" />
@@ -97,9 +90,9 @@
       </method>
     </configuration>
     <configuration name="Main" type="Java Scratch">
-      <option name="MAIN_CLASS_NAME" value="TESoftware.Views.Models.Main" />
+      <option name="MAIN_CLASS_NAME" value="TESoftware.Controllers.Main" />
       <module name="Phase3TEAccounting" />
-      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/src/Main.java" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/src/TESoftware/Controllers/Main.java" />
       <shortenClasspath name="NONE" />
       <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules=javafx.controls,javafx.fxml" />
       <method v="2">
@@ -126,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669589346880</updated>
-      <workItem from="1669589347638" duration="3024000" />
+      <workItem from="1669589347638" duration="6397000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1669590417303</created>
@@ -149,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669591801831</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Various additional files added">
+      <created>1669592556418</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669592556418</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +169,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="Second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
+    <MESSAGE value="Various additional files added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Various additional files added" />
   </component>
 </project>

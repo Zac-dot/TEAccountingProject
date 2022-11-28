@@ -1,7 +1,21 @@
-package TESoftware.Models;
+package TESoftware.Controllers;
 
-public class Main {
+import TESoftware.Models.*;
+import javafx.application.Application;
+import javafx.fxml.*;
+import javafx.scene.*;
+import javafx.stage.*;
+import javafx.scene.control.*;
+
+import java.io.IOException;
+
+
+
+public class Main extends Application {
     public static void main(String[] args) {
+
+        launch(args);
+
         //Testing methods and classes
         Client Anthony = new Client("Anthony", "Palo Alta, CA", 18, 50.00);
         System.out.println(Anthony.toString());
@@ -20,4 +34,15 @@ public class Main {
         Valarie.setWorksUnder(Erin.getName());
         Valarie.getsWorksUnder();
     }
+
+    @Override
+    public void start(Stage stage) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("/TESoftware/Views/Login.fxml"));
+        Scene scene = new Scene(root, 300, 300);
+        stage.setTitle("Login");
+        stage.setScene(scene);
+        stage.show();
+    }
+
+
 }
