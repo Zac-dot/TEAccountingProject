@@ -5,7 +5,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TESoftware.Controllers.EmployeeProfile">
    <children>
       <Label fx:id="nameLabel" alignment="TOP_CENTER" layoutX="45.0" layoutY="36.0" prefHeight="27.0" prefWidth="210.0" text="Welcome, (Name)" textAlignment="CENTER">
@@ -16,7 +15,7 @@
       <Button fx:id="closeButton" layoutX="18.0" layoutY="260.0" mnemonicParsing="false" onAction="#Logout" text="Logout" />
       <Label alignment="TOP_CENTER" layoutX="18.0" layoutY="106.0" prefHeight="18.0" prefWidth="151.0" text="Manage Client Orders" />
       <Label alignment="TOP_CENTER" layoutX="18.0" layoutY="150.0" prefHeight="18.0" prefWidth="151.0" text="Work with a Client" />
-      <Button layoutX="198.0" layoutY="102.0" mnemonicParsing="false" text="Client History" />
+      <Button fx:id="cliID" layoutX="198.0" layoutY="102.0" mnemonicParsing="false" onAction="#ClientHistory" text="Client History" />
       <Button layoutX="214.0" layoutY="146.0" mnemonicParsing="false" text="Clients..." />
    </children>
 </AnchorPane>

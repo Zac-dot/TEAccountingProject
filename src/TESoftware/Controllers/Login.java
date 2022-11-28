@@ -15,11 +15,16 @@ public class Login {
     private TextField usernameID;
     @FXML
     private TextField passID;
-
+    @FXML
+    private Button ButtonID;
     public void Login(ActionEvent event) throws Exception{
         //Client / User profile
         if(usernameID.getText().equals("PhilipFry") && passID.getText().equals("pass")){
             sID.setText("Successfully got in!");
+
+            Stage stage = (Stage) ButtonID.getScene().getWindow();
+            stage.close();
+
             Stage primaryStage = new Stage();
             Parent root = FXMLLoader.load(getClass().getResource("/TESoftware/Views/ClientProfile.fxml"));
             Scene scene = new Scene(root, 300, 300);
@@ -29,6 +34,10 @@ public class Login {
         //Admin Profile essentially
         }else if(usernameID.getText().equals("HubertFry") && passID.getText().equals("admin")){
             sID.setText("Successfully got in!");
+
+            Stage stage = (Stage) ButtonID.getScene().getWindow();
+            stage.close();
+
             Stage primaryStage = new Stage();
             Parent root = FXMLLoader.load(getClass().getResource("/TESoftware/Views/EmployeeProfile.fxml"));
             Scene scene = new Scene(root, 300, 300);
