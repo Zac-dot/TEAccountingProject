@@ -24,6 +24,20 @@ public class ClientProfile {
         primaryStage.show();
     }
 
+    //Grabs OrderButtonID, closes previous stage, and then opens up an order page
+    @FXML
+    public Button OrderButtonID;
+    public void NewOrder(ActionEvent event) throws Exception{
+        Stage stage = (Stage) OrderButtonID.getScene().getWindow();
+        stage.close();
+
+        Stage primaryStage = new Stage();
+        Parent root = FXMLLoader.load(getClass().getResource("/TESoftware/Views/ClientToEmployee.fxml"));
+        Scene scene = new Scene(root, 400, 300);
+        primaryStage.setTitle("Order History");
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
     @FXML
     public Button closeButton;
 
@@ -34,4 +48,5 @@ public class ClientProfile {
         Stage stage = (Stage) closeButton.getScene().getWindow();
         stage.close();
     }
+
 }
