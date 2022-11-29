@@ -31,9 +31,11 @@ public class Main extends Application {
             smt.executeUpdate("use teaccounting");
             System.out.println("Connected to database");
             //Will make tables, or atleast check if they have been made
-            smt.executeUpdate("create table if not exists employees(managedby varchar(50), name varchar(70), ID Integer);");
-            smt.executeUpdate("create table if not exists manager(managedby varchar(200), managerof varchar(200), name varchar(70), ID Integer);");
-            smt.executeUpdate("create table if not exists CEO(manages varchar(200), name varchar(70), ID Integer);");
+            smt.executeUpdate("create table if not exists employees(managedby varchar(50), name varchar(70), ID Integer);"); //Employees
+            smt.executeUpdate("create table if not exists manager(managedby varchar(200), managerof varchar(200), name varchar(70), ID Integer);"); //Manager
+            smt.executeUpdate("create table if not exists CEO(manages varchar(200), name varchar(70), ID Integer);"); //CEO
+            smt.executeUpdate("create table if not exists individual(name varchar(80), budget double, location varchar(200), orderID Integer);"); //Individual
+            smt.executeUpdate("create table if not exists company(companyname varchar(200), budget double, orderID Integer);"); //Company
             System.out.println("Tables have been checked and made");
 
             //Goes straight into scenes

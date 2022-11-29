@@ -16,6 +16,6 @@
       <Label alignment="TOP_CENTER" layoutX="18.0" layoutY="106.0" prefHeight="18.0" prefWidth="151.0" text="Manage Client Orders" />
       <Label alignment="TOP_CENTER" layoutX="18.0" layoutY="150.0" prefHeight="18.0" prefWidth="151.0" text="Work with a Client" />
       <Button fx:id="cliID" layoutX="198.0" layoutY="102.0" mnemonicParsing="false" onAction="#ClientHistory" text="Client History" />
-      <Button layoutX="214.0" layoutY="146.0" mnemonicParsing="false" text="Clients..." />
+      <Button fx:id="clientID" layoutX="214.0" layoutY="146.0" mnemonicParsing="false" onAction="#NewClient" text="Clients..." />
    </children>
 </AnchorPane>

@@ -25,6 +25,20 @@ public class EmployeeProfile {
         primaryStage.setScene(scene);
         primaryStage.show();
     }
+
+    @FXML
+    public Button clientID;
+    public void NewClient(ActionEvent event) throws Exception{
+        Stage stage = (Stage) clientID.getScene().getWindow();
+        stage.close();
+
+        Stage primaryStage = new Stage();
+        Parent root = FXMLLoader.load(getClass().getResource("/TESoftware/Views/ClientToEmployee.fxml"));
+        Scene scene = new Scene(root, 400, 300);
+        primaryStage.setTitle("Order History");
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
     @FXML
     public Button closeButton;
     //Closes window and will logout

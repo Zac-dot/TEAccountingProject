@@ -9,17 +9,17 @@
 
 <AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TESoftware.Controllers.ClientToEmployee">
    <children>
-      <ComboBox fx:id="comboboxID" layoutX="235.0" layoutY="99.0" onAction="#initialize" prefWidth="150.0" />
+      <ComboBox fx:id="comboboxID" layoutX="232.0" layoutY="86.0" onAction="#initialize" prefWidth="150.0" />
       <Label alignment="TOP_CENTER" layoutX="125.0" layoutY="24.0" prefHeight="27.0" prefWidth="150.0" text="New Order">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label alignment="TOP_CENTER" layoutX="20.0" layoutY="103.0" text="Who would you like to work with?" />
-      <Label alignment="TOP_CENTER" layoutX="20.0" layoutY="149.0" prefHeight="18.0" prefWidth="180.0" text="Where are you located?" />
-      <Label alignment="TOP_CENTER" layoutX="20.0" layoutY="196.0" prefHeight="18.0" prefWidth="180.0" text="What is your budget?" />
-      <TextField layoutX="236.0" layoutY="146.0" />
-      <TextField layoutX="236.0" layoutY="193.0" />
+      <Label alignment="TOP_CENTER" layoutX="17.0" layoutY="90.0" text="Who would you like to work with?" />
+      <Label alignment="TOP_CENTER" layoutX="17.0" layoutY="143.0" prefHeight="18.0" prefWidth="180.0" text="Where are you located?" />
+      <Label alignment="TOP_CENTER" layoutX="17.0" layoutY="192.0" prefHeight="18.0" prefWidth="180.0" text="What is your budget?" />
+      <TextField fx:id="locationID" layoutX="233.0" layoutY="139.0" promptText="ie: Seattle, WA" />
+      <TextField fx:id="budgetID" layoutX="233.0" layoutY="188.0" promptText="\$00.00" />
       <Button fx:id="submitID" layoutX="331.0" layoutY="259.0" mnemonicParsing="false" onAction="#Submitted" text="Submit" />
       <Button fx:id="backID" layoutX="20.0" layoutY="259.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
    </children>
