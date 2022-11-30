@@ -12,6 +12,7 @@ public class OrderHistory {
     @FXML
     public Button gobackID;
 
+    //OrderHistory just goes back to the Employee Profile
     public void goBack(ActionEvent event) throws Exception{
         Stage stage = (Stage) gobackID.getScene().getWindow();
         stage.close();

@@ -14,6 +14,7 @@ public abstract class EmployeeProfile{
 
     @FXML
     public Button cliID;
+    //Shows the stage for the Client Profile
     public void ClientHistory(ActionEvent event) throws Exception {
         Stage stage = (Stage) cliID.getScene().getWindow();
         stage.close();
@@ -26,6 +27,7 @@ public abstract class EmployeeProfile{
         primaryStage.show();
     }
 
+    //On click of button, will show the stage for a new client interaction
     @FXML
     public Button clientID;
     public void NewClient(ActionEvent event) throws Exception{

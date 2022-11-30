@@ -41,6 +41,7 @@ public class ClientHistory {
         primaryStage.setTitle("Order History");
 
         try{
+            //Reconnects to the SQL Database, and will pull information from the individual table that matches the name
             Connection conn = DriverManager.getConnection(databaseurl,username,password);
             Statement smt = (Statement) conn.createStatement();
             ResultSet rs = smt.executeQuery("SELECT * FROM orderhistory WHERE client = 'Philip J Fry';");
@@ -65,14 +66,18 @@ public class ClientHistory {
             //Sets the table
             table.getColumns().addAll(Column1, Column2, Column3, Column4);
             table.setItems(data);
+            //THE DATA IS IN THE TABLE, JavaFX is just not displaying it
         }catch(SQLException e){
             e.printStackTrace();
             System.out.println("Something didn't go as planned");
         }
 
+        //Sets the scene
         primaryStage.setScene(scene);
         primaryStage.show();
     }
+
+    //Goes back to previous scene
     public void goBack(ActionEvent event) throws Exception{
         Stage stage = (Stage) gobackID.getScene().getWindow();
         stage.close();

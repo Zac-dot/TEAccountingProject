@@ -68,6 +68,7 @@ public class ClientToEmployee {
 
     }
 
+    //Makes an alert that displays the OrderID
     public void Alert(int randint1, ActionEvent event) throws Exception {
         //Alerts the user and will show the OrderID
         Alert alert = new Alert(Alert.AlertType.NONE);

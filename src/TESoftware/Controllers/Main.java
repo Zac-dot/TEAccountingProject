@@ -15,6 +15,12 @@ import java.sql.*;
 public class Main extends Application {
     public static void main(String[] args) {
 
+
+        //Lets the person know the logins for each profile
+        System.out.println(" -- Hey! The logins for these profiles are -- ");
+        System.out.println("Employee Login: HubertFry with password: admin");
+        System.out.println("Client Login: PhilipJFry with password: pass\n");
+
         //Testing methods and classes
         Client Anthony = new Client("Anthony", "Palo Alta, CA", 18, 50.00);
         Business LarryHart = new Business("LarryHart Furniture","San Francisco, CA", 19, 26000.00, 12, "Retail");
@@ -57,6 +63,7 @@ public class Main extends Application {
 
     }
 
+    //Initalizes the Login Screen
     @Override
     public void start(Stage stage) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("/TESoftware/Views/Login.fxml"));
