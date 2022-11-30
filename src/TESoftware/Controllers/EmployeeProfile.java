@@ -1,6 +1,5 @@
 package TESoftware.Controllers;
 
-import TESoftware.Models.Employee;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -10,7 +9,7 @@ import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
 //Almost a exact replica of ClientProfile
-public abstract class EmployeeProfile{
+public class EmployeeProfile{
 
     @FXML
     public Button cliID;
@@ -20,7 +19,7 @@ public abstract class EmployeeProfile{
         stage.close();
 
         Stage primaryStage = new Stage();
-        Parent root = FXMLLoader.load(getClass().getResource("/TESoftware/Views/History.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/TESoftware/Views/EmployeeHistory.fxml"));
         Scene scene = new Scene(root, 500, 400);
         primaryStage.setTitle("Client History");
         primaryStage.setScene(scene);

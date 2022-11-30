@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83aae247-23ee-470d-8051-f59653230a8c" name="Changes" comment="FXMLs are done, ClientToEmployee.java has working SQL Inserting">
+    <list default="true" id="83aae247-23ee-470d-8051-f59653230a8c" name="Changes" comment="Something caused an error on FXML side, fixed it with reversions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TESoftware/Controllers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TESoftware/Controllers/EmployeeProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/EmployeeProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TESoftware/Controllers/OrderHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/OrderHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TESoftware/Views/History.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Views/EmployeeHistory.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +153,7 @@
       <workItem from="1669766235999" duration="93000" />
       <workItem from="1669766440041" duration="298000" />
       <workItem from="1669766769941" duration="2170000" />
+      <workItem from="1669778267930" duration="1723000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1669590417303</created>
@@ -229,7 +232,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669681441437</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Something caused an error on FXML side, fixed it with reversions">
+      <created>1669770664556</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669770664556</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Something caused an error on FXML side, fixed it with reversions">
+      <created>1669770764536</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669770764536</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +272,8 @@
     <MESSAGE value="Updated and made sure FXML files would work, UI is mostly complete" />
     <MESSAGE value="All but one FXML file is made, SQL is slowly being placed in model files" />
     <MESSAGE value="FXMLs are done, ClientToEmployee.java has working SQL Inserting" />
-    <option name="LAST_COMMIT_MESSAGE" value="FXMLs are done, ClientToEmployee.java has working SQL Inserting" />
+    <MESSAGE value="Something caused an error on FXML side, fixed it with reversions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Something caused an error on FXML side, fixed it with reversions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
