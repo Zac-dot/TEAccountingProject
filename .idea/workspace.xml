@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83aae247-23ee-470d-8051-f59653230a8c" name="Changes" comment="FXMLs are done, ClientToEmployee.java has working SQL Inserting">
-      <change afterPath="$PROJECT_DIR$/src/TESoftware/Models/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TESoftware/Controllers/ClientHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/ClientHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TESoftware/Controllers/ClientProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/ClientProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TESoftware/Controllers/ClientToEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/ClientToEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TESoftware/Controllers/EmployeeProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/EmployeeProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TESoftware/Controllers/EmployeeToClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/EmployeeToClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TESoftware/Controllers/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TESoftware/Controllers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TESoftware/Views/ClientHistory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Views/ClientHistory.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TESoftware/Views/EmployeeToClient.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Views/EmployeeToClient.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TESoftware/Views/OrderHistory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Views/History.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RESET_MODE" value="HARD" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -43,34 +36,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/XLee2/OneDrive/Documents/School Files/Fall Quarter 2022/CS 380/Phase3TEAccounting/src/TESoftware/Controllers/Main.java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/XLee2/OneDrive/Documents/School Files/Fall Quarter 2022/CS 380/Phase3TEAccounting/src/TESoftware/Controllers/Main.java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\XLee2\OneDrive\Documents\School Files\Fall Quarter 2022\CS 380\Phase3TEAccounting" />
