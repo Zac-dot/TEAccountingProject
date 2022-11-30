@@ -19,7 +19,7 @@ public class Main extends Application {
         System.out.println(" -- Hey! The logins for these profiles are -- ");
         System.out.println("Employee Login: HubertFry with password: admin");
         System.out.println("Client Login: PhilipJFry with password: pass\n");
-
+        //TSK tsk
         //Testing methods and classes
         Client Anthony = new Client("Anthony", "Palo Alta, CA", 18, 50.00);
         Business LarryHart = new Business("LarryHart Furniture","San Francisco, CA", 19, 26000.00, 12, "Retail");
