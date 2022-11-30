@@ -8,7 +8,7 @@ import javafx.scene.control.*;
 import javafx.stage.*;
 import javafx.event.*;
 
-public class Login {
+public class Login{
     @FXML
     private Label sID;
     @FXML

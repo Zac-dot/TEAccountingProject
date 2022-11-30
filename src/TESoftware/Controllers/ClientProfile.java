@@ -8,7 +8,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.stage.Stage;
 
-public class ClientProfile {
+public class ClientProfile{
 
     @FXML
     public Button orderID;
@@ -16,12 +16,11 @@ public class ClientProfile {
         Stage stage = (Stage) orderID.getScene().getWindow();
         stage.close();
 
-        Stage primaryStage = new Stage();
-        Parent root = FXMLLoader.load(getClass().getResource("/TESoftware/Views/OrderHistory.fxml"));
-        Scene scene = new Scene(root, 500, 400);
-        primaryStage.setTitle("Order History");
-        primaryStage.setScene(scene);
-        primaryStage.show();
+        //Calls on method to set table and display it with appropriate data
+        //As well as set the scene
+        //Due to it being non-static, is called on using a new instance of the class
+        ClientHistory clientHistory = new ClientHistory();
+        clientHistory.initialize();
     }
 
     //Grabs OrderButtonID, closes previous stage, and then opens up an order page

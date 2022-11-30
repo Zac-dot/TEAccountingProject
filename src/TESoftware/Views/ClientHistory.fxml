@@ -3,29 +3,23 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
-<?import javafx.scene.control.TitledPane?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TESoftware.Controllers.ClientHistory">
+<AnchorPane prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TESoftware.Controllers.OrderHistory">
    <children>
-      <TitledPane animated="false" prefHeight="400.0" prefWidth="500.0" text="Client History">
-        <content>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="284.0" prefWidth="498.0">
-               <children>
-                  <TableView prefHeight="312.0" prefWidth="500.0">
-                    <columns>
-                      <TableColumn prefWidth="75.0" text="C1" />
-                      <TableColumn prefWidth="75.0" text="C2" />
-                        <TableColumn prefWidth="75.0" text="C3" />
-                        <TableColumn prefWidth="75.0" text="C4" />
-                        <TableColumn prefWidth="75.0" text="C5" />
-                    </columns>
-                  </TableView>
-                  <Button fx:id="gobackID" layoutX="14.0" layoutY="335.0" mnemonicParsing="false" onAction="#goBack" text="Go Back" />
-                  <Button layoutX="438.0" layoutY="335.0" mnemonicParsing="false" prefWidth="46.0" text="Edit" />
-               </children>
-            </AnchorPane>
-        </content>
-      </TitledPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <TableView fx:id="table" prefHeight="312.0" prefWidth="500.0" tableMenuButtonVisible="true">
+               <columns>
+                  <TableColumn fx:id="OrderNum" prefWidth="119.20001983642578" text="OrderID" />
+                  <TableColumn fx:id="Clients" prefWidth="72.80000305175781" text="Clients" />
+                  <TableColumn fx:id="BudgetPrice" prefWidth="122.40003967285156" resizable="false" text="Price/Budget" />
+                  <TableColumn fx:id="Comments" prefWidth="184.0" text="Comments" />
+               </columns>
+            </TableView>
+            <Button fx:id="gobackID" layoutX="14.0" layoutY="334.0" mnemonicParsing="false" onAction="#goBack" text="Go Back" />
+            <Button layoutX="391.0" layoutY="334.0" mnemonicParsing="false" text="Report Problem" />
+         </children>
+      </AnchorPane>
    </children>
 </AnchorPane>

@@ -57,6 +57,7 @@ public class ClientToEmployee {
             Connection conn = DriverManager.getConnection(databaseurl,username,password);
             Statement smt = (Statement) conn.createStatement();
             smt.execute("INSERT IGNORE INTO individual(name, budget, location, orderID) VALUES ('"+ (String)comboboxID.getValue() +"','" + Double.parseDouble(budgetID.getText()) +"','" + locationID.getText() +"','" + randint1 +"');");
+            smt.execute("INSERT IGNORE INTO orderhistory(orderID,client,budget,comments) VALUES ('"+ randint1 +"','Philip J Fry','" + Double.parseDouble(budgetID.getText()) +"','Was recently made');");
             Alert(randint1, event);
         }catch(SQLException e){
             e.printStackTrace();
@@ -79,9 +80,6 @@ public class ClientToEmployee {
         goBack(event);
     }
 
-    public void Confirm(ActionEvent event) throws Exception{
-
-    }
 
     //On press it will go back to the previous view
     @FXML
