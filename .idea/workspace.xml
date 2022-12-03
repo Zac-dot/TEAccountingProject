@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Phase3TEAccounting:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83aae247-23ee-470d-8051-f59653230a8c" name="Changes" comment="Something caused an error on FXML side, fixed it with reversions">
+    <list default="true" id="83aae247-23ee-470d-8051-f59653230a8c" name="Changes" comment="Small revision before Project is being previewed">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Phase3TEAccounting_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TESoftware/Controllers/EmployeeProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/EmployeeProfile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TESoftware/Controllers/OrderHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Controllers/OrderHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TESoftware/Views/History.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/TESoftware/Views/EmployeeHistory.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +55,9 @@
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/XLee2/OneDrive/Documents/School Files/Fall Quarter 2022/CS 380/Phase3TEAccounting/src/TESoftware/Controllers/Main.java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/XLee2/OneDrive/Documents/School Files/Fall Quarter 2022/CS 380/Phase3TEAccounting&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -153,7 +161,15 @@
       <workItem from="1669766235999" duration="93000" />
       <workItem from="1669766440041" duration="298000" />
       <workItem from="1669766769941" duration="2170000" />
-      <workItem from="1669778267930" duration="1723000" />
+      <workItem from="1669778267930" duration="5153000" />
+      <workItem from="1669783895596" duration="65000" />
+      <workItem from="1669868945001" duration="51000" />
+      <workItem from="1669869011970" duration="45000" />
+      <workItem from="1669869113824" duration="18000" />
+      <workItem from="1669869293580" duration="14000" />
+      <workItem from="1669869372033" duration="25000" />
+      <workItem from="1669869914350" duration="85000" />
+      <workItem from="1669871195024" duration="125000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1669590417303</created>
@@ -246,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669770764536</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Small revision before Project is being previewed">
+      <created>1669780874310</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669780874310</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +296,8 @@
     <MESSAGE value="All but one FXML file is made, SQL is slowly being placed in model files" />
     <MESSAGE value="FXMLs are done, ClientToEmployee.java has working SQL Inserting" />
     <MESSAGE value="Something caused an error on FXML side, fixed it with reversions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Something caused an error on FXML side, fixed it with reversions" />
+    <MESSAGE value="Small revision before Project is being previewed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small revision before Project is being previewed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: Main
+Class-Path: C:\Users\XLee2\OneDrive\Documents\School Files\Fall Quarter 
+ 2022\CS 380\Phase3TEAccounting\src\TESoftware\Controllers\
+

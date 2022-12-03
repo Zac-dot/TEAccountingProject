@@ -18,7 +18,7 @@ public class OrderHistory {
         stage.close();
 
         Stage primaryStage = new Stage();
-        Parent root = FXMLLoader.load(getClass().getResource("/TESoftware/Views/EmployeeProfile.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/TESoftware/Views/ClientProfile.fxml"));
         Scene scene = new Scene(root, 300, 300);
         primaryStage.setTitle("Welcome, Philip J Fry");
         primaryStage.setScene(scene);

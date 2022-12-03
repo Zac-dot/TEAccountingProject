@@ -19,7 +19,7 @@ public class EmployeeProfile{
         stage.close();
 
         Stage primaryStage = new Stage();
-        Parent root = FXMLLoader.load(getClass().getResource("/TESoftware/Views/EmployeeHistory.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/TESoftware/Views/ClientHistory.fxml"));
         Scene scene = new Scene(root, 500, 400);
         primaryStage.setTitle("Client History");
         primaryStage.setScene(scene);
